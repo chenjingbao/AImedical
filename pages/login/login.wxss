@@ -1,0 +1,31 @@
+page{
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+#login{
+  text-align: center
+}
+#login image{
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px #000;
+  margin-top: 30%;
+}
+#login .text{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+#login .text1{
+  font-size: 23px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 15px;
+}
+#login button{
+  margin-top: 30px;
+  width: 180px;
+  color: #ffd1ff;
+}

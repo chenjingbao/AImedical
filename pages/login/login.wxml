@@ -1,0 +1,10 @@
+<view id='login'>
+  <view>
+    <image src="../../imgs/logo.jpg"></image>
+  </view>
+  <view class="text1">2019AIMedical</view>
+  <view class="text">vistalab 小程序</view>
+  <view class="text">如果未登录请点击下方登录</view>
+  <!-- <button bindtap="tologin">登录</button> -->
+
+</view>

@@ -1,0 +1,6 @@
+<!--pages/archives/archives.wxml-->
+<view>头像:</view>
+<image src="{{avatarUrl}}"></image>
+<view>昵称: {{nickname}}</view>
+<button bindtap="getNickname">获取昵称</button>
+<navigator url="../result1/result1" open-type="navigate"><button>第一个项目检测结果</button></navigator>

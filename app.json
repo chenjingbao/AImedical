@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/app1/app1",
+    "pages/medical/medical",
+    "pages/login/login",
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/archives/archives",
+    "pages/result1/result1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor":"#ff6699",
+    "list": [{
+      "pagePath": "pages/homepage/homepage",
+      "text": "登录",
+      "iconPath": "icons/login.png",
+      "selectedIconPath": "icons/login_select.png"
+    },
+    {
+      "pagePath": "pages/login/login",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home_select.png"
+    },
+      {
+        "pagePath": "pages/medical/medical",
+        "text": "诊断",
+        "iconPath": "icons/app.png",
+        "selectedIconPath": "icons/app_select.png"
+      },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "档案",
+          "iconPath": "icons/mine.png",
+          "selectedIconPath": "icons/mine_select.png"
+        }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

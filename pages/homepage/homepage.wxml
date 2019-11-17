@@ -1,0 +1,12 @@
+<view class='container'>
+  <view class='userinfo'></view>
+  <view class='weul-panel'></view>
+  <view class="page__bd page__bd_spacing button-sp-area">
+    <button class="weui-btn mini-btn" type="primary" disabled="{{isLogin}}" bindtap="authorize">授权登陆</button>
+    <button class="weui-btn mini-btn" type="warn" disabled="{{!isLogin}}" bindtap="logout">注销</button>
+    <button class="weui-btn mini-btn" type="warn" disabled="{{!isLogin}}" bindtap="getStatusFromRemote">获取状态</button>
+    <button class="cu-btn round bg-white shadow" wx:if="{{! hasUserInfo}}" disabled='{{isLogin}}' open-type='getUserInfo' bindgetuserinfo="onAuthorizeConfirm">
+请点击授权
+</button>
+  </view>
+</view>

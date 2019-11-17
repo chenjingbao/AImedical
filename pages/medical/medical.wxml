@@ -1,0 +1,9 @@
+<swiper autoplay indicator-dots circular>
+  <swiper-item><image class="swiper" mode="widthFix" src="../../image/1.jpg"></image></swiper-item>
+  <swiper-item><image class="swiper" mode="widthFix" src="../../image/2.jpg"></image></swiper-item>
+  <swiper-item><image class="swiper" mode="widthFix" src="../../image/3.jpg"></image></swiper-item>
+  <swiper-item><image class="swiper" mode="widthFix" src="../../image/4.jpg"></image></swiper-item>
+</swiper>
+<navigator url="../app1/app1" open-type="navigate"><button>检测项目一</button></navigator>
+
+

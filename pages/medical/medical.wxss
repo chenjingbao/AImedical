@@ -1,0 +1,28 @@
+/* pages/medical/medical.wxss */
+page{
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+swiper{
+  width:100%;
+  height: 150px;
+}
+
+image.swiper{
+  width: 100%;
+}
+
+page{
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+#medical.img{
+  text-align: center
+}
+
+image.app{
+  width: 110px;
+  height: 110px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px #000;
+  margin-top: 10%;
+}
