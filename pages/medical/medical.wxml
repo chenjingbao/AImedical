@@ -5,5 +5,7 @@
   <swiper-item><image class="swiper" mode="widthFix" src="../../image/4.jpg"></image></swiper-item>
 </swiper>
 <navigator url="../app1/app1" open-type="navigate"><button>检测项目一</button></navigator>
+<navigator url="../app2/app2" open-type="navigate"><button>膀胱癌的分级与分期预测</button></navigator>
+<navigator url="../app3/app3" open-type="navigate"><button>膀胱癌图像分割</button></navigator>
 
 

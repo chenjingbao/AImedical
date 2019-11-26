@@ -1,0 +1,11 @@
+<!--pages/result1/result1.wxml-->
+<text>历史图片</text>
+
+<view>检测结果</view>
+<button bindtap="downloadFile">获取</button>
+<view class='attrs' wx:for='{{result1}}' wx:for-index='key'>
+      <image src="{{key}}"></image>
+      <text>检测结果:</text>
+      <image src="{{item}}"></image>
+
+</view>

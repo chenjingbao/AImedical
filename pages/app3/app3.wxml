@@ -1,0 +1,27 @@
+<view class="weui-cells">
+  <view class="weui-cell">
+    <view class="weui-cell__bd">
+      <view class="weui-uploader">
+        <view class="weui-uploader__hd">
+          <view class="weui-uploader__title">待上传图片3</view>
+        </view>
+        <view class="weui-uploader__bd">
+          <view class="weui-uploader__files" id="uploaderFiles">
+            <block wx:for="{{needUploadFiles}}" wx:key="*this">
+              <view class="weui-uploader__file" data-type="UploadView" bind:longpress="longTapConfirm">
+                <image class="weui-uploader__img" src="{{item}}" mode="aspectFill"></image>
+              </view>
+            </block>
+          </view>
+          <view class="weui-uploader__input-box">
+            <view class="weui-uploader__input" bindtap="chooseImage"><button>选择图片</button></view>
+            <view class="weui-uploader__input" bindtap="uploadFiles"><button>上传</button></view>
+            <!-- <view class="weui-uploader__input" bindtap="uploadFiles"><button>预测</button></view> -->
+            <view>预测结果: {{result}}</view>
+            <image src="{{result}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -21,6 +21,7 @@ App({
             success: res => {
               // 可以将 res 发送给后台解码出 unionId
               this.globalData.userInfo = res.userInfo
+              console.log(res.userInfo)
 
               // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
               // 所以此处加入 callback 以防止这种情况
@@ -37,8 +38,8 @@ App({
     userInfo: null,
     serverUrl:"http://49.234.58.209/",
     apiVersion:"/api/v1.0",
-    appId:"wx52be923c10175bd7",
-    appSecret:"0ea2e80a64144c5b433334ee241007f4",
+    appId: "wx52be923c10175bd7",
+    appSecret: "0ea2e80a64144c5b433334ee241007f4",
     auth:{
       isAuthorized:false
     }
